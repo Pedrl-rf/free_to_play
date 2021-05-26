@@ -13,7 +13,7 @@ import android.os.Parcelable;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
-class ListGamesPc implements Parcelable {
+public class ListGamesPc implements Parcelable {
     @SerializedName("id")
     @Expose
     private int id;
